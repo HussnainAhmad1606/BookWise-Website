@@ -7,7 +7,7 @@ import Stats from '@/components/Stats'
 import { useEffect, useState } from 'react';
 import useUserStore from "../../store/store"
 const inter = Inter({ subsets: ['latin'] })
-
+var jwt = require("jsonwebtoken");
 export default function Home() {
 
 
@@ -24,7 +24,9 @@ export default function Home() {
   const setIsAlert = useUserStore(state => state.setIsAlert);
   const setAlertType = useUserStore(state => state.setAlertType);
   const setAlertMsg = useUserStore(state => state.setAlertMessage);
-
+  const setUsername = useUserStore((state) => state.setUsername);
+  const setAvatar = useUserStore((state) => state.setAvatar);
+  const setEmail = useUserStore((state) => state.setEmail);
 
   const [emailForm, setEmailForm] = useState("");
   const [passwordForm, setPasswordForm] = useState("");
@@ -65,6 +67,13 @@ export default function Home() {
     .then(data => {
       setAlertType(data.type);
       setAlertMsg(data.message);
+      const t = jwt.decode(data.token, process.env.JWT_TOKEN);
+      if (t) {
+        setUsername(t.username);
+        setAvatar(t.avatar);
+        setEmail(t.email);
+      }
+      localStorage.setItem("token", data.token);
       setIsAlert(true);
     })
 
