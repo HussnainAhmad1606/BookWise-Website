@@ -19,11 +19,11 @@ const handler = async (req, res) => {
         })
     
         await user.save();
-        return res.status(200).json({type: "success", message: "User created successfully" })
+        return res.status(200).json({type: "success", message: "Account created successfully" })
     }
     
     else {
-        return res.status(200).json({type: "error", message: "ERROR" })
+        return res.status(200).json({type: "error", message: "Error While creating account. Please try again." })
     }
 }
 

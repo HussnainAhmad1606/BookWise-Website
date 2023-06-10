@@ -12,11 +12,11 @@ const handler = async (req, res) => {
 
         if (user && (await bcrypt.compare(rPassword, user.password))) {
             var token = jwt.sign({avatar: user.avatar, username: user.username, email: user.email, password: user.password}, process.env.JWT_TOKEN);
-            res.json({ token })
+            res.json({ message:"Logged in Successfully", type: "success", token: token })
 
         }
         else {
-            return res.status(400).json({error: "User not found"})
+            return res.status(400).json({type: "warning", message: "User not found"})
         }
 
 
