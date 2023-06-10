@@ -12,6 +12,8 @@ The website also provide the facility to the Instructors to upload their own cou
 Front-End:
 - [x]  Homepage
 
+Back-End:
+- [x]  Login/Signup Authentication
 
 
 ## Future Roadmap
@@ -30,7 +32,6 @@ Front-End:
 
 
 Back-End:
-- [ ]  Login/Signup Authentication
 - [ ]  Making API Endpoints to get courses or specific course to show on front-end to user
 - [ ]  CRUD API Endpoints to upload, edit, read, delete any course
 - [ ]  Firebase Firestore connection
