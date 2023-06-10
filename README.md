@@ -11,6 +11,8 @@ The website also provide the facility to the Instructors to upload their own cou
 ## Features Completed
 Front-End:
 - [x]  Homepage
+- [x]  Login Screen
+- [x]  Sign Up Screen
 
 Back-End:
 - [x]  Login/Signup Authentication
@@ -18,8 +20,6 @@ Back-End:
 
 ## Future Roadmap
 Front-End:
-- [ ]  Login Screen
-- [ ]  Sign Up Screen
 - [ ]  Contact Us
 - [ ]  About Us
 - [ ]  Profile Page

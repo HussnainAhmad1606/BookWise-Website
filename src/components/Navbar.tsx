@@ -29,6 +29,8 @@ function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
+  <button className="btn btn-primary"><Link href={"/login"}>Login</Link></button>
+  <button className="mx-2 btn btn-primary"><Link href={"/signup"}>Sign Up</Link></button>
   <div className="dropdown dropdown-end">
 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
   <div className="w-10 rounded-full">
