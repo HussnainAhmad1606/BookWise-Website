@@ -13,16 +13,17 @@ Front-End:
 - [x]  Homepage
 - [x]  Login Screen
 - [x]  Sign Up Screen
+- [x]  Profile Page
 
 Back-End:
 - [x]  Login/Signup Authentication
+- [x]  Firebase Storage connection
 
 
 ## Future Roadmap
 Front-End:
 - [ ]  Contact Us
 - [ ]  About Us
-- [ ]  Profile Page
 - [ ]  Single Course View Page
 - [ ]  Trending page to show trending courses
 - [ ]  Explore page to show courses of different categories
@@ -34,7 +35,7 @@ Front-End:
 Back-End:
 - [ ]  Making API Endpoints to get courses or specific course to show on front-end to user
 - [ ]  CRUD API Endpoints to upload, edit, read, delete any course
-- [ ]  Firebase Firestore connection
+
 
 and there are more features that will be added from time to time
 ## Lessons Learned
