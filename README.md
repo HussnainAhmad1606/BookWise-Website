@@ -1,50 +1,42 @@
+# BookWise
 
-![Logo](https://raw.githubusercontent.com/HussnainAhmad1606/Learnly-Pro-Academy/master/public/cover.png)
-
-# Learnly Pro Academy
-
-This repository contains code for the website project that will provide courses to the students.  
-The website also provide the facility to the Instructors to upload their own courses to the platform.
+This repository contains code for BookWise Website that is a community for Book lovers
 
 
 
 ## Features Completed
-Front-End:
+
 - [x]  Homepage
 - [x]  Login Screen
 - [x]  Sign Up Screen
 - [x]  Profile Page
-
-Back-End:
 - [x]  Login/Signup Authentication
-- [x]  Firebase Storage connection
+- [x]  Firebase Storage connection for storing images
 
 
 ## Future Roadmap
-Front-End:
 - [ ]  Contact Us
 - [ ]  About Us
-- [ ]  Single Course View Page
-- [ ]  Trending page to show trending courses
-- [ ]  Explore page to show courses of different categories
-- [ ]  Admin Panel for Instructors to upload course
-
-
-
-
-Back-End:
-- [ ]  Making API Endpoints to get courses or specific course to show on front-end to user
-- [ ]  CRUD API Endpoints to upload, edit, read, delete any course
-
+- [ ]  Showing Books on Page
+- [ ]  Search Filtering
+- [ ]  Book Clubs (Creating, Joining, Deleting)
+- [ ]  Live Chatting in Club
+- [ ]  Add to Reading List/Bookmark
+- [ ]  User Reviews and Ratings
+- [ ]  Book Tracking and Progress
+- [ ]  Personalized book recommendation system that suggests books to Users based on their reading preferences, favorite genres, and past reading history
+- [ ]  Machine Learning Feature: Sentiment Analysis of Book Reviews - (positive, negative, or neutral) about a specific book
 
 and there are more features that will be added from time to time
+
+
 ## Lessons Learned
 
 I will write all lessons that I have learned while making this project in this section
 
 ## Contributing
 
-Project is Open-Source and you can contribute to this project by implementing features that are listed above.  
+This Project is Open-Source and you can contribute to this project by implementing features that are listed above.  
 One thing if you can do is hit me up on @its.psychovert at Instagram and tell me which feature you will implement so that you will get info if any other person is making that feature or not.   
 You will get credits along with feature that you will implement.
 
@@ -55,13 +47,13 @@ To add any contribution or Run this project to your system, Follow the follwoing
 Clone the project
 
 ```bash
-  git clone https://github.com/HussnainAhmad1606/Learnly-Pro-Academy.git
+  git clone https://github.com/HussnainAhmad1606/BookWise-Website
 ```
 
 Go to the project directory
 
 ```bash
-  cd Learnly-Pro-Academy
+  cd BookWise-Website
 ```
 
 Install dependencies
