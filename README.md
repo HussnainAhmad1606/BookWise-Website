@@ -1,3 +1,7 @@
+
+![BookWise Logo](https://raw.githubusercontent.com/HussnainAhmad1606/BookWise-Website/master/public/cover.png)
+
+
 # BookWise
 
 This repository contains code for BookWise Website that is a community for Book lovers
