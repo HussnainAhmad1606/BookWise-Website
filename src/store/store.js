@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 
 const useUserStore = create((set) => ({
-  username: "Psy",
+  username: "",
   email: "",
   avatar: "",
   setUsername: (newUsername) => set({ username:newUsername }),
